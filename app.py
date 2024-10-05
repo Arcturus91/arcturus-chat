@@ -91,7 +91,7 @@ def main():
         # Side bar model options and inputs
         with st.sidebar:
 
-            model = st.selectbox("Select a model:", [
+            model = st.selectbox("Select a model of your choice:", [
                 "gpt-4o-2024-05-13", 
                 "gpt-4-turbo", 
                 "gpt-3.5-turbo-16k", 
